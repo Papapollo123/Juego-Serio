@@ -20,6 +20,8 @@ public class DeliveryManager : MonoBehaviour{
     private float spawnRecipieTimerMax = 4f;
     private int waitingRecipiesMax = 4;
     private int successfulRecipiesAmount; 
+    private int failedRecipiesAmount;
+    private int totalPoints;
 
     private void Awake() {
         Instance = this;

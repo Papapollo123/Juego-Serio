@@ -33,7 +33,7 @@ public class DeliveryResultUI : MonoBehaviour{
         gameObject.SetActive(true);
         animator.SetTrigger(POPUP); 
         backgroundImage.color = failedColor;
-        iconImage.color = failedColor;
+        iconImage.sprite = failedSprite;
         messageText.text = "ENTREGA\nFALLIDA"; 
     }
 
@@ -41,7 +41,7 @@ public class DeliveryResultUI : MonoBehaviour{
         gameObject.SetActive(true);
         animator.SetTrigger(POPUP);
         backgroundImage.color = successColor;
-        iconImage.color = successColor;
+        iconImage.sprite = successSprite;
         messageText.text = "ENTREGA\nEXITOSA";
 
     }

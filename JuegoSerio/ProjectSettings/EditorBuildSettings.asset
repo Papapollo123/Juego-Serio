@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: a9c2084b61fde384fb72ed5d03316787
+  - enabled: 1
+    path: Assets/Scenes/Dream.unity
+    guid: 53acf81836772b748ae01ede4467767d
+  - enabled: 1
+    path: Assets/Scenes/InformalScene1.unity
+    guid: 3e1a34d00cf46ba4aba5365633a6eb4a
   m_configObjects: {}
