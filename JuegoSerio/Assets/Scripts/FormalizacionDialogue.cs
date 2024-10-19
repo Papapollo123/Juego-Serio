@@ -1,27 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
-public class Dialogue : MonoBehaviour
+using UnityEngine;
+
+public class FormalizacionDialogue : MonoBehaviour
 {
-
-
-    public TextMeshProUGUI textComponent;
+    [SerializeField] private TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
     private int index;
-    // Start is called before the first frame update
-    void Start()
-    {
+
+    void Start() {
         textComponent.text = string.Empty;
         StartDialogue();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(0)) {
-            if(textComponent.text == lines[index]) {
+    void Update() {
+        if (Input.GetMouseButtonDown(0)) {
+            if (textComponent.text == lines[index]) {
                 NextLine();
             }
             else {
@@ -52,11 +48,8 @@ public class Dialogue : MonoBehaviour
         }
         else {
             gameObject.SetActive(false);
-            Loader.Load(Loader.Scene.InformalScene1);
+            Loader.Load(Loader.Scene.Formal);
         }
 
     }
-
 }
-
-

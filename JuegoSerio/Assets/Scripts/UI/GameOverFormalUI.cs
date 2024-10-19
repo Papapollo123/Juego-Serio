@@ -4,22 +4,20 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameOverInf1UI : MonoBehaviour
+public class GameOverFormalUI : MonoBehaviour
 {
-
-
     [SerializeField] private TextMeshProUGUI recipiesDeliveredText;
     [SerializeField] private Button continueButton;
 
     private void Awake() {
         continueButton.onClick.AddListener(() => {
-            Loader.Load(Loader.Scene.InformalScene2);
+            Loader.Load(Loader.Scene.FormalInspector);
         });
     }
 
-    void Start()
-    {
+    private void Start() {
         KitchenGameManager.Instance.OnStateChanged += KitchenGameManager_OnStateChanged;
+
         Hide();
     }
 
