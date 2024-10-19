@@ -20,4 +20,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InformalScene1.unity
     guid: 3e1a34d00cf46ba4aba5365633a6eb4a
+  - enabled: 1
+    path: Assets/Scenes/InformalScene2.unity
+    guid: 5f81417dd877435489ffb8beafd84668
+  - enabled: 1
+    path: Assets/Scenes/InspectorSpeech.unity
+    guid: 195b2d24526069e4bbbdb5b0e2c35937
+  - enabled: 1
+    path: Assets/Scenes/Rats2.unity
+    guid: 1c777816b5b9ee94aafa537952c7bc14
+  - enabled: 1
+    path: Assets/Scenes/RatsInspector.unity
+    guid: b59f488ab6a571847a8e39b88e35496a
+  - enabled: 1
+    path: Assets/Scenes/InspectorCloseDown.unity
+    guid: 2182fabc834170741aaef8350801fe5a
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: c4862a8518937c043ac7974fc2eb5e03
+  - enabled: 1
+    path: Assets/Scenes/Formalizacion.unity
+    guid: 1fc06d0ee0bc78f4f8277a0c3790f062
+  - enabled: 1
+    path: Assets/Scenes/Formal.unity
+    guid: 8048bc9d86454864fa42f86dfdd98fde
+  - enabled: 1
+    path: Assets/Scenes/FormalInspector.unity
+    guid: 16db5cfb59fc92143a2c044cf15bfc1e
+  - enabled: 1
+    path: Assets/Scenes/InspectorVictory.unity
+    guid: 8060bb10799dbd943beec43685123604
+  - enabled: 1
+    path: Assets/Scenes/GoodEnding.unity
+    guid: 5ba59662f26fc8a498bfe35ecfe10611
   m_configObjects: {}

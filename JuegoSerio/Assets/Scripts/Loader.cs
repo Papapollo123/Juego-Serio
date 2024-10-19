@@ -10,7 +10,19 @@ public static class Loader {
         GameScene,
         LoadingScene,
         Dream,
-        InformalScene1
+        InformalScene1,
+        InformalScene2,
+        InspectorSpeech,
+        Rats2,
+        RatsInspector,
+        InspectorCloseDown,
+        BadEnding,
+        Formalizacion,
+        Formal,
+        FormalInspector,
+        InspectorVictory,
+        GoodEnding
+
     }
     
     private static Scene targetScene; 
