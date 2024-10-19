@@ -2,17 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameOverUI : MonoBehaviour {
 
     [SerializeField] private TextMeshProUGUI recipiesDeliveredText;
-    //[SerializeField] private Button continueButton;
+    [SerializeField] private Button continueButton;
 
-    /* private void Awake() {
+     private void Awake() {
          continueButton.onClick.AddListener(()=> {
              Loader.Load(Loader.Scene.Dream); 
          });
-     }*/
+     }
 
     private void Start() {
         KitchenGameManager.Instance.OnStateChanged += KitchenGameManager_OnStateChanged;

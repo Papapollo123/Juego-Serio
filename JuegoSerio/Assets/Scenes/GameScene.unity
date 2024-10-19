@@ -6684,6 +6684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recipiesDeliveredText: {fileID: 1372804956}
+  continueButton: {fileID: 1144246578}
 --- !u!1 &1074385317
 GameObject:
   m_ObjectHideFlags: 0
