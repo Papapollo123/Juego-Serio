@@ -807,7 +807,7 @@ MonoBehaviour:
   textComponent: {fileID: 1407673915}
   lines:
   - Oye causa
-  - Formaliza tu negocio p
+  - Tienes un negocio informal, deberias de formalizarlo
   textSpeed: 0.05
 --- !u!1 &948962992
 GameObject:
