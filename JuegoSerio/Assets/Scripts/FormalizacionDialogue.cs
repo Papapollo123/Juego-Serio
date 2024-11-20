@@ -48,7 +48,7 @@ public class FormalizacionDialogue : MonoBehaviour
         }
         else {
             gameObject.SetActive(false);
-            Loader.Load(Loader.Scene.Formal);
+            Loader.Load(Loader.Scene.FormalInspector);
         }
 
     }

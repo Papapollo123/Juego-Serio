@@ -13,7 +13,7 @@ public class InspectorSpeechUI : MonoBehaviour{
             Loader.Load(Loader.Scene.Formalizacion);
         });
         informalButton.onClick.AddListener(() => {
-            Loader.Load(Loader.Scene.Rats2);
+            Loader.Load(Loader.Scene.RatsInspector);
         });
     }
 
