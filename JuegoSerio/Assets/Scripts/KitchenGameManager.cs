@@ -23,7 +23,7 @@ public class KitchenGameManager : MonoBehaviour{
     private State state;
     private float countdownToStartTimer = 3f;
     private float gamePlayingTimer;
-    private float gamePlayingTimerMax = 20f; //antes era 150f
+    private float gamePlayingTimerMax = 30f; //antes era 150f
     private bool isGamePaused = false;
 
     private void Awake() {
@@ -86,6 +86,10 @@ public class KitchenGameManager : MonoBehaviour{
 
     public float GetCountdownToStartTimer() {
         return countdownToStartTimer;
+    }
+
+    public float GetGamePlayingTimer() {
+        return gamePlayingTimer;
     }
 
     public bool IsGameOver() {
