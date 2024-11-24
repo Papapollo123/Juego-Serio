@@ -851,29 +851,29 @@ MonoBehaviour:
   textComponent: {fileID: 1924291496}
   lines:
   - "Siguiente para la asesor\xEDa..."
-  - Oh hola
-  - Que bueno que hayas decidido formalizar tu negocio
-  - Hubiese sido una pena que lo clausuren
+  - Oh, hola.
+  - "Qu\xE9 bueno que hayas decidido formalizar tu negocio."
+  - 'Hubiese sido una pena que lo clausuren. '
   - jeje
   - Mmm?
-  - Que hago aqui si yo soy el inspector?
-  - "Ah, ese es mi trabajo de d\xEDa"
-  - De noche soy otra
+  - "\xBFQu\xE9 hago aqu\xED si yo soy el inspector?"
+  - "Ah, ese es mi trabajo de d\xEDa."
+  - De noche soy otra.
   - 'Bueno, para formalizar un negocio debes de seguir estos pasos:'
-  - 1) Registrar tu negocio en la SUNAT y obtener un RUC
-  - El RUC te permite acceder a servicios financieros y programas de apoyo
-  - Ese RUC debe iniciar con 10 si es una persona natural con negocio
-  - "Y con 20 si es una persona jur\xEDdica"
-  - "Facil\xEDsimo, no?"
-  - "Te recomiendo que lo inscribas como persona jur\xEDdica"
-  - "De ese modo si el negocio quiebra, no afectar\xE1 tu patrimonio"
-  - 2) Luego de eso necesitas solicitar una licencia municipal de funcionamiento
-  - "Formalizar tu negocio es bueno para la econom\xEDa"
-  - "Aumenta la recaudaci\xF3n tributaria y fomenta la competencia leal"
-  - "Pero tambi\xE9n es bueno para ti"
-  - "Mejora la percepci\xF3n del negocio y fomenta la confianza de los clientes"
-  - "Yo se que lo har\xE1s bien"
-  - :D
+  - 1) Registrar tu negocio en la SUNAT y obtener un RUC.
+  - 'El RUC te permite acceder a servicios financieros y programas de apoyo. '
+  - Ese RUC debe iniciar con 10 si es una persona natural con negocio.
+  - "Y con 20 si es una persona jur\xEDdica. "
+  - "Facil\xEDsimo, \xBFNo?"
+  - "Te recomiendo que lo inscribas como persona jur\xEDdica."
+  - "De ese modo si el negocio quiebra, no afectar\xE1 tu patrimonio. "
+  - 2) Luego de eso necesitas solicitar una licencia municipal de funcionamiento.
+  - "Formalizar tu negocio es bueno para la econom\xEDa."
+  - "Aumenta la recaudaci\xF3n tributaria y fomenta la competencia leal."
+  - "Pero tambi\xE9n es bueno para ti. "
+  - "Mejora la percepci\xF3n del negocio y fomenta la confianza de los clientes. "
+  - "Yo s\xE9 que lo har\xE1s bien."
+  - "\xC9xitos. "
   textSpeed: 0.03
 --- !u!114 &1990454904
 MonoBehaviour:
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.82745105, g: 0.8313726, b: 0.8235295, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

@@ -826,7 +826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5019608, g: 0.60784316, b: 0.8, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -866,10 +866,10 @@ MonoBehaviour:
   textComponent: {fileID: 1407673915}
   lines:
   - Felicidades
-  - Veo que tu negocio va bien
-  - Ahora que tienes un negocio formal tienes mas beneficios
-  - "Puedes acceder a pr\xE9stamos y programas de capacitaci\xF3n"
-  - No dudes en utilizarlos cuando los necesites
+  - Veo que tu negocio va bien.
+  - "Ahora que tienes un negocio formal tienes m\xE1s beneficios."
+  - "Puedes acceder a pr\xE9stamos y programas de capacitaci\xF3n."
+  - No dudes en utilizarlos cuando los necesites.
   textSpeed: 0.05
 --- !u!1001 &871347157
 PrefabInstance:
